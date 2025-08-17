@@ -2,9 +2,9 @@ name: Build QCustomUi with Qt
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 env:
   QT_VERSION: "6.9.1"  # 默认为 Qt 6.5.2，可选改为 5.15.2
